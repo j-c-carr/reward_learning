@@ -2,6 +2,7 @@
 data_acquisition/data/*
 out/*
 logs/*
+.idea
 
 # General
 
