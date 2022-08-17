@@ -43,7 +43,7 @@ def process_trajectories(trajectories, returns, window_shape, shuffle=True):
 
 if __name__ == '__main__':
     env = ToyCenteredArray()
-    trajectories, returns = env.simulate_trajectories_and_returns(1_000_000, 50)
+    trajectories, returns = env.simulate_trajectories_and_returns(500_000, 50)
     env.save_unprocessed_trajectories_and_returns(trajectories, returns)
 
     # trajectories, returns = load_unprocessed_trajectories_and_returns('data/exp1')
