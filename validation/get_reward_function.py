@@ -42,6 +42,3 @@ def test_return_vs_reward():
 rewards = reward_model.predict(x_train.reshape(-1, memory_window_length))
 rewards = rewards.reshape(-1, num_windows)
 predicted_returns = rewards.sum(axis=-1)
-
-# Make sure they are similar
-print(predicted_returns - y_train.reshape(-1))
