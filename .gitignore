@@ -2,6 +2,10 @@
 data_acquisition/data/*
 out/*
 logs/*
+!data_acquisition/data/.gitkeep
+!out/.gitkeep
+!logs/.gitkeep
+
 .idea
 
 # General
